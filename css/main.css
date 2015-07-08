@@ -184,10 +184,13 @@ BEGIN IMAGES
     margin-bottom: 5vh;
 }
 
-
+.jappear {
+    opacity: 0;
+}
 #table {
     position: relative;
-    bottom: 35vh;
+    top: 49vh;
+    left: 13vw;
 }
 .sidebysides {
     text-align: center;
@@ -211,6 +214,7 @@ BEGIN IMAGES
 }
 #front-page {
     margin: 15vh 0;
+    opacity: 0;
 }
  
 #pink-plops {
@@ -229,6 +233,7 @@ BEGIN IMAGES
 #dont-wanna {
     height: 90vh;
     margin: 10vh 0;
+    opacity: 0;
 }
 
 
