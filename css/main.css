@@ -198,19 +198,24 @@ BEGIN IMAGES
 
 .sideby {
     display: inline-block;
-    height: 65vh;
+    height: 65%;
 }
 
 .sideby:first-child {
     margin-right:4em;
 }
 
+img {
+    /*max-width: 100%;*/
+}
+
+
 #processes {
-    height: 60vh;
+    height: 60%;
     margin-bottom: 5vh;
 }
 #first-cairn {
-    height: 45vh;
+    height: 45%;
 }
 #front-page {
     margin: 15vh 0;
@@ -218,20 +223,20 @@ BEGIN IMAGES
 }
  
 #pink-plops {
-    height:95vh;
+    height:95%;
 
 }
 
 #third-cairn {
-    height: 45vh;
+    /*height: 45%;*/
 }
 #plops-cones {
-    height: 60vh;
+    height: 60%;
 }
 
 
 #dont-wanna {
-    height: 90vh;
+    height: 90%;
     margin: 10vh 0;
     opacity: 0;
 }
@@ -239,7 +244,7 @@ BEGIN IMAGES
 
 
 #bonny-corner {
-    height: 90vh;
+    height: 90%;
 
 }
 
