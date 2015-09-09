@@ -1,9 +1,13 @@
 /*! HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com/ */
+
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -13,6 +17,8 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -30,6 +36,8 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
+
+
 /*
  * A better looking default horizontal rule
  */
@@ -42,6 +50,8 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -56,6 +66,8 @@ svg,
 video {
     vertical-align: middle;
 }
+
+
 /*
  * Remove default fieldset styles.
  */
@@ -65,6 +77,8 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -72,6 +86,8 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -82,6 +98,8 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -106,80 +124,92 @@ img {
 }
 
 
-
 /**********************************************
 CONTACT CARD
 **********************************************/
 
-#contact-btn  {
+
+/*mobile*/
+
+.mobile-contact {
+    display: none;
+}
+
+#contact-btn {
     opacity: 1;
     font-size: 2em;
     font-weight: lighter;
     top: 8vh;
-    right:5vw;
+    right: 5vw;
     position: fixed;
 }
+
 #contact-btn:hover {
-    opacity:1;
+    opacity: 1;
     cursor: pointer;
     transform: rotate(270deg);
 }
 
 label {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 #contact-info {
-  display: none; /* hide the checkbox */
+    display: none;
+    /* hide the checkbox */
 }
+
 #menu {
-  display: none;
-  position: fixed;
-  top: 17vh;
-  right: 3vw;
-  height: 15vh;
-  width: 25vw;
-  border-radius: 1em;
-  text-align: justify;
-  z-index: 2;
+    display: none;
+    position: fixed;
+    top: 17vh;
+    right: 3vw;
+    height: 15vh;
+    width: 25vw;
+    border-radius: 1em;
+    text-align: justify;
+    z-index: 2;
 }
+
 .artist-statement {
     /*background-color: white;*/
 }
 
-
 #menu a {
     color: #000;
 }
+
 #menu a:visited {
     text-decoration: none;
 }
- #menu a:hover {
+
+#menu a:hover {
     text-decoration: underline;
     color: #000;
-
 }
- #menu a:focus {
+
+#menu a:focus {
     text-decoration: none;
     color: #000;
 }
 
-
-
 #menu li {
     list-style-type: none;
-
 }
+
 #contact-info:checked + #menu {
-  display: block;
+    display: block;
 }
 
 
 /**********************************************
 BEGIN IMAGES
 **********************************************/
+
 .image {
     margin-bottom: 25vh;
 }
+
 .image:last-child {
     margin-bottom: 5vh;
 }
@@ -187,66 +217,65 @@ BEGIN IMAGES
 .jappear {
     opacity: 0;
 }
+
 #table {
     position: relative;
     top: 49vh;
     left: 13vw;
 }
+
 .sidebysides {
     text-align: center;
+
 }
 
 .sideby {
     display: inline-block;
-    height: 65vh;
+    max-height: 500px;
+
 }
 
 .sideby:first-child {
-    margin-right:4em;
+    margin-right: 4em;
 }
 
 #processes {
     height: 60vh;
     margin-bottom: 5vh;
 }
+
 #first-cairn {
-    height: 45vh;
+    max-height: 45vh;
 }
+
 #front-page {
     margin: 15vh 0;
     opacity: 0;
 }
- 
-#pink-plops {
-    height:95vh;
 
+#pink-plops {
+    /*height:95vh;*/
+    max-width: 100%;
+    height: auto;
 }
 
 #third-cairn {
     height: 45vh;
 }
+
 #plops-cones {
     height: 60vh;
 }
 
-
 #dont-wanna {
-    height: 90vh;
+    max-width: 100%;
     margin: 10vh 0;
     opacity: 0;
 }
 
-
-
 #bonny-corner {
-    height: 90vh;
-
+    max-width: 100%;
 }
-
-
-
-
-
 
 .noSelect {
     -webkit-touch-callout: none;
@@ -258,11 +287,11 @@ BEGIN IMAGES
 }
 
 
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+
 /*
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
@@ -272,6 +301,8 @@ BEGIN IMAGES
     display: none !important;
     visibility: hidden;
 }
+
+
 /*
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -287,6 +318,8 @@ BEGIN IMAGES
     position: absolute;
     width: 1px;
 }
+
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
@@ -302,6 +335,8 @@ BEGIN IMAGES
     position: static;
     width: auto;
 }
+
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -309,6 +344,8 @@ BEGIN IMAGES
 .invisible {
     visibility: hidden;
 }
+
+
 /*
  * Clearfix: contain floats
  *
@@ -325,7 +362,6 @@ BEGIN IMAGES
 .clearfix:after {
     content: " ";
     /* 1 */
-    
     display: table;
     /* 2 */
 }
@@ -333,6 +369,8 @@ BEGIN IMAGES
 .clearfix:after {
     clear: both;
 }
+
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -344,11 +382,166 @@ BEGIN IMAGES
 }
 
 @media only screen and (max-width: 992px) {
-    #table{
+    #table {
         position: static;
         bottom: 0;
     }
+    .sideby:last-child {
+        margin-top: 2em;
+    }
+
 }
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .logo h1 {
+        font-size: 2em;
+        margin-left: 0;
+    }
+    .mobile-contact {
+        display: initial;
+        float: right;
+    }
+    #contact-btn {
+        opacity: 1;
+        font-size: 1.5em;
+        font-weight: lighter;
+        top: 8vh;
+        right: 5vw;
+        position: fixed;
+        display: none;
+    }
+    #contact-btn:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: rotate(270deg);
+    }
+    label {
+        cursor: pointer;
+    }
+    #contact-info {
+        display: none;
+        /* hide the checkbox */
+    }
+    #menu {
+        display: none;
+        position: fixed;
+        top: 17vh;
+        right: 3vw;
+        height: 15vh;
+        width: 25vw;
+        border-radius: 1em;
+        text-align: justify;
+        z-index: 2;
+    }
+    .artist-statement {
+        /*background-color: white;*/
+    }
+    #menu a {
+        color: #000;
+    }
+    #menu a:visited {
+        text-decoration: none;
+    }
+    #menu a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+    #menu a:focus {
+        text-decoration: none;
+        color: #000;
+    }
+    #menu li {
+        list-style-type: none;
+    }
+    #contact-info:checked + #menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .logo h1 {
+        font-size: 2em;
+        margin-left: 0;
+    }
+    .mobile-contact {
+        display: initial;
+        float: right;
+    }
+    #contact-btn {
+        opacity: 1;
+        font-size: 1.5em;
+        font-weight: lighter;
+        top: 8vh;
+        right: 5vw;
+        position: fixed;
+        display: none;
+    }
+    #contact-btn:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: rotate(270deg);
+    }
+    label {
+        cursor: pointer;
+    }
+    #contact-info {
+        display: none;
+        /* hide the checkbox */
+    }
+    #menu {
+        display: none;
+        position: fixed;
+        top: 17vh;
+        right: 3vw;
+        height: 15vh;
+        width: 25vw;
+        border-radius: 1em;
+        text-align: justify;
+        z-index: 2;
+    }
+    .artist-statement {
+        /*background-color: white;*/
+    }
+    #menu a {
+        color: #000;
+    }
+    #menu a:visited {
+        text-decoration: none;
+    }
+    #menu a:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+    #menu a:focus {
+        text-decoration: none;
+        color: #000;
+    }
+    #menu li {
+        list-style-type: none;
+    }
+    #contact-info:checked + #menu {
+        display: block;
+    }
+    #plops-cones {
+        width: 100%;
+        height: auto;
+    }
+    #processes {
+        height: auto;
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    #table {
+       margin-top: 5vh;
+    }
+    .sideby:last-child {
+    margin-top: 2em;
+}
+}
+
 
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
@@ -356,6 +549,8 @@ BEGIN IMAGES
 (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -370,7 +565,6 @@ BEGIN IMAGES
         color: #000 !important;
         /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -388,7 +582,6 @@ BEGIN IMAGES
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -402,7 +595,6 @@ BEGIN IMAGES
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-    
     thead {
         display: table-header-group;
     }
