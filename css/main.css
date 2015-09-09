@@ -470,6 +470,10 @@ BEGIN IMAGES
         display: initial;
         float: right;
     }
+    .jappear {
+    opacity: 100;
+}
+
     #contact-btn {
         opacity: 1;
         font-size: 1.5em;
