@@ -123,6 +123,10 @@ img {
     margin-left: 3em;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 
 /**********************************************
 CONTACT CARD
@@ -136,6 +140,7 @@ CONTACT CARD
 }
 
 #contact-btn {
+  color:black;
     opacity: 1;
     font-size: 2em;
     font-weight: lighter;
@@ -160,19 +165,20 @@ label {
 }
 
 #menu {
-    display: none;
-    position: fixed;
+    /*display: none;
+    position: absolute;
     top: 17vh;
     right: 3vw;
-    height: 15vh;
-    width: 25vw;
-    border-radius: 1em;
-    text-align: justify;
-    z-index: 2;
+    height: 15vh;*/
+    /*width: 25vw;*/
+    /*border-radius: 1em;*/
+    /*text-align: justify;*/
+    /*z-index: 2;*/
 }
 
-.artist-statement {
-    /*background-color: white;*/
+.descript {
+  display: inline-block;
+text-align: justify;
 }
 
 #menu a {
@@ -215,7 +221,7 @@ BEGIN IMAGES
 }
 
 .jappear {
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 #table {
@@ -250,7 +256,7 @@ BEGIN IMAGES
 
 #front-page {
     margin: 15vh 0;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 #pink-plops {
@@ -270,7 +276,7 @@ BEGIN IMAGES
 #dont-wanna {
     max-width: 100%;
     margin: 10vh 0;
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 #bonny-corner {
@@ -286,6 +292,56 @@ BEGIN IMAGES
     user-select: none;
 }
 
+/*newer images*/
+
+.prime {
+  max-width: 80%;
+}
+
+.writing {
+  max-width: 45%;
+}
+
+.for-details {
+  max-width: 75%;
+}
+
+.free {
+  max-width: 35%;
+  margin-left: 10%;
+
+  display: inline-block;
+}
+
+.occult {
+  max-width: 45%;
+  margin-left: 5%;
+  display: inline-block;
+  margin-top: 100%;
+}
+
+.truck {
+  max-width: 85%;
+}
+
+.front {
+
+  display: inline-block;
+  max-width: 35%;
+}
+
+.back {
+
+  display: inline-block;
+  max-width: 35%;
+}
+
+
+.pdf-icon {
+  padding-left: 4px;
+  height: 26px;
+  width: 26px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -380,6 +436,51 @@ BEGIN IMAGES
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+@media only screen and (max-width: 850px) {
+  .prime {
+    max-width: 84%;
+  }
+
+  .writing {
+    max-width: 65%;
+  }
+
+  .for-details {
+    max-width: 85%;
+  }
+
+  .free {
+    max-width: 35%;
+    margin-left: 10%;
+
+    display: inline-block;
+  }
+
+  .occult {
+    max-width: 45%;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 100%;
+  }
+
+  .truck {
+    max-width: 95%;
+  }
+
+  .front {
+
+    display: inline-block;
+    max-width: 45%;
+  }
+
+  .back {
+
+    display: inline-block;
+    max-width: 45%;
+  }
+
+
+}
 
 @media only screen and (max-width: 992px) {
     #table {
@@ -405,6 +506,7 @@ BEGIN IMAGES
         float: right;
     }
     #contact-btn {
+        color:black;
         opacity: 1;
         font-size: 1.5em;
         font-weight: lighter;
