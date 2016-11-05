@@ -241,10 +241,29 @@ BEGIN IMAGES
 
 }
 
+.both {
+  max-height: 500px;
+}
+
+.cut_out {
+  max-height: 600px;
+}
 .sideby:first-child {
     margin-right: 4em;
 }
 
+.vowelsinstall {
+  max-height: 500px;
+  margin-top: 150px;
+}
+
+.glosso {
+  max-height: 600px;
+}
+
+.bouquet {
+  max-height: 750px;
+}
 #processes {
     height: 60vh;
     margin-bottom: 5vh;
