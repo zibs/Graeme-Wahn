@@ -349,6 +349,17 @@ BEGIN IMAGES
   max-width: 35%;
 }
 
+.recordplayer {
+  max-height: 750px;
+}
+.beerglass {
+  max-height: 500px;
+}
+
+.PlasticWood {
+  max-height: 600px;
+}
+
 .back {
 
   display: inline-block;
