@@ -373,6 +373,41 @@ BEGIN IMAGES
   width: 26px;
 }
 
+
+.BottleHook {
+  max-height: 600px;
+}
+.FallSequence {
+  max-height: 650px;
+}
+.CamerBack {
+  max-height: 450px;
+}
+.Falstaff {
+  max-height: 350px;
+}
+.Gate {
+  max-height: 650px;
+}
+.LAUNDRY001 {
+  max-height: 400px;
+}
+.LAUNDRY002 {
+  max-height: 400px;
+  padding-left: 120px;
+}
+
+.RoomofWorks {
+  max-height: 650px;
+}
+.generator1 {max-height: 400px;}
+.generator2 {
+  max-height: 400px;
+  padding-left: 90px;
+}
+.stackofsticks {
+  max-height: 450px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
