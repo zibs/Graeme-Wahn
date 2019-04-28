@@ -126,7 +126,7 @@ h6{
 body {
   font-family: "Courier New";
   background-image: url("../img/buterfly_background.jpg");
-  height: 100%;
+  height: 50%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
