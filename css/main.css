@@ -1,23 +1,20 @@
 /*! HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com/ */
 
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -28,29 +25,27 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
-
 
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
-
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -64,50 +59,47 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
 
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
-
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
-
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body, html {
-   height: 100%;
-   margin: 0;
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
-h1{
+h1 {
   color: white;
   margin-left: 10px;
   font-weight: 300;
@@ -116,162 +108,154 @@ h1{
 a {
   color: white;
   margin-left: 10px;
-
 }
-h6{
-    margin-bottom: 5px;
-    margin-top: 5px;
+h6 {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 body {
-  font-family: "Courier New";
-  background-image: url("../img/foot_background.jpg");
+  font-family: 'Courier New';
+  /* background-image: url('../img/foot_background.jpg'); */
   height: 100%;
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
-
 
 /*NEW SITE*/
 
-
 a.link {
-    margin-left: 10px;  
+  margin-left: 10px;
 }
 
 /**************************old site below*/
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .logo {
-    display: inline-block;
-    margin-bottom: 2.5em;
+  display: inline-block;
+  margin-bottom: 2.5em;
 }
 
 .logo h1 {
-    font-size: 3em;
-    margin-left: 3em;
+  font-size: 3em;
+  margin-left: 3em;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-
 /**********************************************
 CONTACT CARD
 **********************************************/
 
-
 /*mobile*/
 
 .mobile-contact {
-    display: none;
+  display: none;
 }
 
 #contact-btn {
-  color:black;
-    opacity: 1;
-    font-size: 2em;
-    font-weight: lighter;
-    top: 8vh;
-    right: 5vw;
-    position: fixed;
+  color: black;
+  opacity: 1;
+  font-size: 2em;
+  font-weight: lighter;
+  top: 8vh;
+  right: 5vw;
+  position: fixed;
 }
 
 #contact-btn:hover {
-    opacity: 1;
-    cursor: pointer;
-    transform: rotate(270deg);
+  opacity: 1;
+  cursor: pointer;
+  transform: rotate(270deg);
 }
 
 label {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #contact-info {
-    display: none;
-    /* hide the checkbox */
+  display: none;
+  /* hide the checkbox */
 }
 
 #menu {
-    /*display: none;
+  /*display: none;
     position: absolute;
     top: 17vh;
     right: 3vw;
     height: 15vh;*/
-    /*width: 25vw;*/
-    /*border-radius: 1em;*/
-    /*text-align: justify;*/
-    /*z-index: 2;*/
+  /*width: 25vw;*/
+  /*border-radius: 1em;*/
+  /*text-align: justify;*/
+  /*z-index: 2;*/
 }
 
 .descript {
   display: inline-block;
-text-align: justify;
+  text-align: justify;
 }
 
 #menu a {
-    color: #000;
+  color: #000;
 }
 
 #menu a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #menu a:hover {
-    text-decoration: underline;
-    color: #000;
+  text-decoration: underline;
+  color: #000;
 }
 
 #menu a:focus {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 #menu li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #contact-info:checked + #menu {
-    display: block;
+  display: block;
 }
-
 
 /**********************************************
 BEGIN IMAGES
 **********************************************/
 
 .image {
-    margin-bottom: 25vh;
+  margin-bottom: 25vh;
 }
 
 .image:last-child {
-    margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }
 
 .jappear {
-    /*opacity: 0;*/
+  /*opacity: 0;*/
 }
 
 #table {
-    position: relative;
-    top: 49vh;
-    left: 13vw;
+  position: relative;
+  top: 49vh;
+  left: 13vw;
 }
 
 .sidebysides {
-    text-align: center;
-
+  text-align: center;
 }
 
 .sideby {
-    display: inline-block;
-    max-height: 500px;
-
+  display: inline-block;
+  max-height: 500px;
 }
 
 .both {
@@ -282,7 +266,7 @@ BEGIN IMAGES
   max-height: 600px;
 }
 .sideby:first-child {
-    margin-right: 4em;
+  margin-right: 4em;
 }
 
 .vowelsinstall {
@@ -298,50 +282,50 @@ BEGIN IMAGES
   max-height: 750px;
 }
 #processes {
-    height: 60vh;
-    margin-bottom: 5vh;
+  height: 60vh;
+  margin-bottom: 5vh;
 }
 
 #first-cairn {
-    max-height: 45vh;
+  max-height: 45vh;
 }
 
 #front-page {
-    margin: 15vh 0;
-    /*opacity: 0;*/
+  margin: 15vh 0;
+  /*opacity: 0;*/
 }
 
 #pink-plops {
-    /*height:95vh;*/
-    max-width: 100%;
-    height: auto;
+  /*height:95vh;*/
+  max-width: 100%;
+  height: auto;
 }
 
 #third-cairn {
-    height: 45vh;
+  height: 45vh;
 }
 
 #plops-cones {
-    height: 60vh;
+  height: 60vh;
 }
 
 #dont-wanna {
-    max-width: 100%;
-    margin: 10vh 0;
-    /*opacity: 0;*/
+  max-width: 100%;
+  margin: 10vh 0;
+  /*opacity: 0;*/
 }
 
 #bonny-corner {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /*newer images*/
@@ -377,7 +361,6 @@ BEGIN IMAGES
 }
 
 .front {
-
   display: inline-block;
   max-width: 35%;
 }
@@ -394,11 +377,9 @@ BEGIN IMAGES
 }
 
 .back {
-
   display: inline-block;
   max-width: 35%;
 }
-
 
 .pdf-icon {
   padding-left: 0px;
@@ -406,8 +387,6 @@ BEGIN IMAGES
   height: 26px;
   width: 26px;
 }
-
-
 
 .BottleHook {
   max-height: 600px;
@@ -435,7 +414,9 @@ BEGIN IMAGES
 .RoomofWorks {
   max-height: 650px;
 }
-.generator1 {max-height: 400px;}
+.generator1 {
+  max-height: 400px;
+}
 .generator2 {
   max-height: 400px;
   padding-left: 90px;
@@ -447,17 +428,15 @@ BEGIN IMAGES
    Helper classes
    ========================================================================== */
 
-
 /*
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
-
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -465,16 +444,15 @@ BEGIN IMAGES
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
-
 
 /*
  * Extends the .visuallyhidden class to allow the element
@@ -484,23 +462,21 @@ BEGIN IMAGES
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
-
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
-
 
 /*
  * Clearfix: contain floats
@@ -516,16 +492,15 @@ BEGIN IMAGES
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
+  content: ' ';
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
-
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -534,7 +509,7 @@ BEGIN IMAGES
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 @media only screen and (max-width: 850px) {
   .prime {
@@ -568,257 +543,198 @@ BEGIN IMAGES
   }
 
   .front {
-
     display: inline-block;
     max-width: 45%;
   }
 
   .back {
-
     display: inline-block;
     max-width: 45%;
   }
-
-
 }
 
 @media only screen and (max-width: 992px) {
-    #table {
-        position: static;
-        bottom: 0;
-    }
-    .sideby:last-child {
-        margin-top: 2em;
-    }
-
+  #table {
+    position: static;
+    bottom: 0;
+  }
+  .sideby:last-child {
+    margin-top: 2em;
+  }
 }
 
-
-
-
 @media only screen and (max-width: 320px) {
-    .logo h1 {
-        font-size: 2em;
-        margin-left: 0;
-    }
-    .mobile-contact {
-        display: initial;
-        float: right;
-    }
-    #contact-btn {
-        color:black;
-        opacity: 1;
-        font-size: 1.5em;
-        font-weight: lighter;
-        top: 8vh;
-        right: 5vw;
-        position: fixed;
-        display: none;
-    }
-    #contact-btn:hover {
-        opacity: 1;
-        cursor: pointer;
-        transform: rotate(270deg);
-    }
-    label {
-        cursor: pointer;
-    }
-    #contact-info {
-        display: none;
-        /* hide the checkbox */
-    }
-    #menu {
-        display: none;
-        position: fixed;
-        top: 17vh;
-        right: 3vw;
-        height: 15vh;
-        width: 25vw;
-        border-radius: 1em;
-        text-align: justify;
-        z-index: 2;
-    }
-    .artist-statement {
-        /*background-color: white;*/
-    }
-    #menu a {
-        color: #000;
-    }
-    #menu a:visited {
-        text-decoration: none;
-    }
-    #menu a:hover {
-        text-decoration: underline;
-        color: #000;
-    }
-    #menu a:focus {
-        text-decoration: none;
-        color: #000;
-    }
-    #menu li {
-        list-style-type: none;
-    }
-    #contact-info:checked + #menu {
-        display: block;
-    }
+  .logo h1 {
+    font-size: 2em;
+    margin-left: 0;
+  }
+  .mobile-contact {
+    display: initial;
+    float: right;
+  }
+  #contact-btn {
+    color: black;
+    opacity: 1;
+    font-size: 1.5em;
+    font-weight: lighter;
+    top: 8vh;
+    right: 5vw;
+    position: fixed;
+    display: none;
+  }
+  #contact-btn:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: rotate(270deg);
+  }
+  label {
+    cursor: pointer;
+  }
+  #contact-info {
+    display: none;
+    /* hide the checkbox */
+  }
+  #menu {
+    display: none;
+    position: fixed;
+    top: 17vh;
+    right: 3vw;
+    height: 15vh;
+    width: 25vw;
+    border-radius: 1em;
+    text-align: justify;
+    z-index: 2;
+  }
+  .artist-statement {
+    /*background-color: white;*/
+  }
+  #menu a {
+    color: #000;
+  }
+  #menu a:visited {
+    text-decoration: none;
+  }
+  #menu a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  #menu a:focus {
+    text-decoration: none;
+    color: #000;
+  }
+  #menu li {
+    list-style-type: none;
+  }
+  #contact-info:checked + #menu {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 414px) {
-    .logo h1 {
-        font-size: 2em;
-        margin-left: 0;
-    }
-    .mobile-contact {
-        display: initial;
-        float: right;
-    }
-    .jappear {
+  .logo h1 {
+    font-size: 2em;
+    margin-left: 0;
+  }
+  .mobile-contact {
+    display: initial;
+    float: right;
+  }
+  .jappear {
     opacity: 100;
-}
+  }
 
-    #contact-btn {
-        opacity: 1;
-        font-size: 1.5em;
-        font-weight: lighter;
-        top: 8vh;
-        right: 5vw;
-        position: fixed;
-        display: none;
-    }
-    #contact-btn:hover {
-        opacity: 1;
-        cursor: pointer;
-        transform: rotate(270deg);
-    }
-    label {
-        cursor: pointer;
-    }
-    #contact-info {
-        display: none;
-        /* hide the checkbox */
-    }
-    #menu {
-        display: none;
-        position: fixed;
-        top: 17vh;
-        right: 3vw;
-        height: 15vh;
-        width: 25vw;
-        border-radius: 1em;
-        text-align: justify;
-        z-index: 2;
-    }
-    .artist-statement {
-        /*background-color: white;*/
-    }
-    #menu a {
-        color: #000;
-    }
-    #menu a:visited {
-        text-decoration: none;
-    }
-    #menu a:hover {
-        text-decoration: underline;
-        color: #000;
-    }
-    #menu a:focus {
-        text-decoration: none;
-        color: #000;
-    }
-    #menu li {
-        list-style-type: none;
-    }
-    #contact-info:checked + #menu {
-        display: block;
-    }
-    #plops-cones {
-        width: 100%;
-        height: auto;
-    }
-    #processes {
-        height: auto;
-        width: 100%;
-        margin-bottom: 5vh;
-    }
-    #table {
-       margin-top: 5vh;
-    }
-    .sideby:last-child {
+  #contact-btn {
+    opacity: 1;
+    font-size: 1.5em;
+    font-weight: lighter;
+    top: 8vh;
+    right: 5vw;
+    position: fixed;
+    display: none;
+  }
+  #contact-btn:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: rotate(270deg);
+  }
+  label {
+    cursor: pointer;
+  }
+  #contact-info {
+    display: none;
+    /* hide the checkbox */
+  }
+  #menu {
+    display: none;
+    position: fixed;
+    top: 17vh;
+    right: 3vw;
+    height: 15vh;
+    width: 25vw;
+    border-radius: 1em;
+    text-align: justify;
+    z-index: 2;
+  }
+  .artist-statement {
+    /*background-color: white;*/
+  }
+  #menu a {
+    color: #000;
+  }
+  #menu a:visited {
+    text-decoration: none;
+  }
+  #menu a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  #menu a:focus {
+    text-decoration: none;
+    color: #000;
+  }
+  #menu li {
+    list-style-type: none;
+  }
+  #contact-info:checked + #menu {
+    display: block;
+  }
+  #plops-cones {
+    width: 100%;
+    height: auto;
+  }
+  #processes {
+    height: auto;
+    width: 100%;
+    margin-bottom: 5vh;
+  }
+  #table {
+    margin-top: 5vh;
+  }
+  .sideby:last-child {
     margin-top: 2em;
-}
-}
-
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  }
 }
 
+.video-wrap {
+  position: fixed;
+  display: flex;
+}
+video {
+  margin-right: -1px;
+  height: 100vh;
+}
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+.content {
+  position: fixed;
+  top: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
 
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-    thead {
-        display: table-header-group;
-    }
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-    img {
-        max-width: 100% !important;
-    }
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+@media only screen and (max-width: 550px) {
+  .hidden-mobile {
+    /* display: none; */
+  }
 }
